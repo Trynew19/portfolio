@@ -185,6 +185,7 @@ nav li:first-child{
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
+    background-color: #CBCBDF;
 }
 .left{
     width: 50%;
@@ -222,6 +223,9 @@ nav li:first-child{
     height: 100%;
 }
 .right img{
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
     height: 100%;
     width: 100%;
 }
@@ -281,6 +285,74 @@ nav li:first-child{
     width: 90%;
     
 }
+.projects{
+    width: 100vw;
+    height: 140vh;
+    background-color: #333333;
+    
+}
+.textprojects{
+    color: #fff;
+    padding: 4vw 5vw;
+}
+.textprojects h2{
+    font-size: 4vw;
+}
+.textprojects span{
+    color: #20B2AA;
+}
+.textprojects p{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.boxprojects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boxes{
+    width: 95vw;
+    height: 80vh;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding: 0.5vw;
+}
+.projectcards img{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.projectcards video{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.projectcards{
+    position: relative;
+    top: 0;
+    width: 26vw;
+    height: 30vh;
+    background-color: #222222;
+    box-shadow: 3px 2px 22px  1px  black;
+    
+}
+
+
+.projectcard1{
+    background-color: red;
+}
+
 
 @media (max-width:400px) {
     .sidebar{
@@ -413,7 +485,7 @@ nav li:first-child{
     }
     .content .left{
         width: 100%;
-        height: 55%;
+        height: 50%;
         padding: 8vw 3vw;
 
     }
@@ -444,9 +516,12 @@ nav li:first-child{
 
     .content .right{
         width: 100%;
-        height: 45%;
+        height: 50%;
     }
     .right img{
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
         height: 100%;
         width: 100%;
     }
