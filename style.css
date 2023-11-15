@@ -228,7 +228,7 @@ nav li:first-child{
 
 .skills{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-color: #222222;
 }
 .text{
@@ -305,6 +305,106 @@ nav li:first-child{
     .menu-button{
         display: block;
     }
+/* aboute section */
+    .aboute-section{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        font-size: 7vw;
+        padding: 5vw 5vw;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(40px);
+    }
+    .aboute-section h2{
+        text-transform: capitalize;
+        margin-bottom: 4vw;
+        color: #20B2AA;
+    }
+    .aboute-section p{
+        text-transform: lowercase;
+        font-size: 9vw;
+        font-weight: 700;
+        line-height: 10vw;
+    }
+    .aboute-section span{
+        color: #20B2AA;
+    }
+    /* contact section */
+    .contact-section{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 3vw ;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(40px);
+    }
+    .contact-section h2{
+        text-transform: capitalize;
+        margin-bottom: 1vw;
+        font-size: 8vw;
+    }
+    .contact-section form{
+        border: 1px solid black;
+        width: 90vw;
+        height: 40vh;
+        border-radius: 8px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #222222;
+        overflow: hidden;
+    }
+    .contact-section form input{
+        padding: 5vw;
+        width: 80vw;
+        color: #fff;
+        background-color: #222222;
+        font-size: 5vw;
+        border: 1px solid #575252;
+        outline-color: #20B2AA;
+        border-radius: 5px;
+        text-transform: capitalize;
+    
+    }
+    
+    .contact-section button{
+        padding: 1vw 4vw;
+        color: #fff;
+        background-color: #5b5757;
+        border: none;
+        border-radius: 5px;
+        font-size: 6vw;
+    
+    }
+    .contact-section button:hover{
+        background-color: #fff;
+        color: #222222;
+    }
+    /* social section */
+    .social-section{
+        position: fixed;
+        top: 0vh;
+        width: 100vw;
+        height: 100vh;
+        padding: 1vw 5vw;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(40px);
+    }
+    .social-section h2{
+        text-transform: capitalize;
+        font-size: 12vw;
+        margin-bottom: 9vw;
+    }
+    .social-section .socialicon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        scale: 7;
+    }
+    
     .content{ 
         width: 100%;
         height: 100%;
@@ -352,7 +452,7 @@ nav li:first-child{
     }
     .skills{
         width: 100vw;
-        height: 100vh;
+        height: 40vh;
         background-color: #222222;
 
     }
