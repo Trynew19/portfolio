@@ -16,9 +16,9 @@ html,body{
 
 
 nav{
+
     background-color: white;
     padding: 1vw 3vw;
-    /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); */
 }
 nav #logo{
     font-size: 3vw;
@@ -45,6 +45,7 @@ nav a{
 }
 nav a:hover{
     background-color: #f0f0f0;
+    border-radius: 5px;
 }
 nav li:first-child{
     margin-right: auto;
@@ -62,7 +63,7 @@ nav li:first-child{
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0,0,0,0.1);
-    display: flex;
+    /* display: none; */
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -75,8 +76,110 @@ nav li:first-child{
 .sidebar a{
     width: 100%;
 }
+.details ul{
+    list-style: none;
+}
+.aboute-section{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    font-size: 2vw;
+    padding: 1vw 19vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+}
+.aboute-section h2{
+    text-transform: capitalize;
+    margin-bottom: 1vw;
+    color: #20B2AA;
+}
+.aboute-section p{
+    text-transform: lowercase;
+    font-size: 5vw;
+    font-weight: 800;
+    line-height: 5vw;
+}
+.aboute-section span{
+    color: #20B2AA;
+}
 
+.contact-section{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    font-size: 2vw;
+    padding: 1vw 19vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+}
+.contact-section h2{
+    text-transform: capitalize;
+    margin-bottom: 1vw;
+}
+.contact-section form{
+    border: 1px solid black;
+    width: 40vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #222222;
+    padding: 2vw 3vw;
+}
+.contact-section form input{
+    padding: 1vw 2vw;
+    color: #fff;
+    background-color: #222222;
+    font-size: 2vw;
+    border: 1px solid #575252;
+    outline-color: #20B2AA;
+    border-radius: 5px;
+    text-transform: capitalize;
 
+}
+
+.contact-section button{
+    padding: 0.7vw 2vw;
+    color: #fff;
+    background-color: #5b5757;
+    border: none;
+    border-radius: 5px;
+    font-size: 2vw;
+
+}
+.contact-section button:hover{
+    background-color: #fff;
+    color: #222222;
+}
+
+.social-section{
+    position: fixed;
+    top: 0vh;
+    z-index: 9999;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    font-size: 2vw;
+    padding: 1vw 19vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+}
+.social-section h2{
+    margin-bottom: 2vw;
+}
+.social-section a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    
+}
 .content{
     position: relative;
     width: 100%;
