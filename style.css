@@ -285,9 +285,10 @@ nav li:first-child{
     width: 90%;
     
 }
+/* project section */
 .projects{
     width: 100vw;
-    height: 140vh;
+    height: 130vh;
     background-color: #333333;
     
 }
@@ -315,27 +316,33 @@ nav li:first-child{
 .boxes{
     width: 95vw;
     height: 80vh;
-    background-color: #fff;
+    background-color: #191717;
     border-radius: 10px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.7vw;
+    
+}
+.first{
+    display: flex;
     gap: 1vw;
-    padding: 0.5vw;
+    margin-bottom: 4vw;
+}
+.second{
+    display: flex;
+    gap: 1vw;
 }
 .projectcards img{
-    background-size: cover;
-    background-position: center;
+   
     height: 100%;
     width: 100%;
-    object-fit: cover;
     
 }
 .projectcards video{
-    background-size: cover;
-    background-position: center;
+   
     height: 100%;
     width: 100%;
-    object-fit: cover;
     
 }
 .projectcards{
@@ -343,15 +350,91 @@ nav li:first-child{
     top: 0;
     width: 26vw;
     height: 30vh;
-    background-color: #222222;
     box-shadow: 3px 2px 22px  1px  black;
     
 }
-
-
-.projectcard1{
-    background-color: red;
+/* footer */
+.footer{
+    width: 100vw;
+    height: 100vh;
 }
+.footer1{
+    width: 100vw;
+    height: 90%;
+    background-color: #242323;
+    display: flex;
+}
+.fleft{
+    width: 50%;
+    height: 100%;
+    color: white;
+
+}
+.ftext{
+    padding: 5vw 10vw;
+}
+.ftext h2{
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+}
+.ftext h4{
+    font-size: 3.5vw;
+    font-weight: 400;
+    padding-right: 6vw;
+    line-height: 4vw;
+}
+.fright{
+    width: 50%;
+    height: 100%;
+    
+
+}
+.frighttext{
+    padding: 9vw 10vw;
+    color: white;
+}
+.number{
+    margin-bottom: 4vw;
+}
+.addres{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vw;
+    margin-top: 2vw;
+}
+.addres h5{
+    font-size: 1.5vw;
+}
+.socialmedia{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+.socialmedia a{
+    text-decoration: none;
+    color: white;
+}
+.soicon{
+    scale: 2.5;
+}
+.footer2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #242323;
+    font-size: 1.5vw;
+}
+.footer2 span{
+    color: red;
+}
+
+
+
+
+
+
 
 
 @media (max-width:400px) {
@@ -476,6 +559,150 @@ nav li:first-child{
         gap: 3vw;
         scale: 7;
     }
+    /* projects for */
+    .projects{
+        width: 100vw;
+        height: 280vh;
+    }
+    .textprojects{
+        color: #fff;
+        padding: 4vw 5vw;
+    }
+    .textprojects h2{
+        font-size: 8vw;
+    }
+    .textprojects span{
+        color: #20B2AA;
+    }
+    .textprojects p{
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .boxprojects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .boxes{
+        width: 100vw;
+        height: 260vh;
+        background-color: #191717;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .first{
+        display: flex;
+        gap: 5vw;
+        flex-direction: column;
+        margin-bottom: 4vw;
+    }
+    
+    
+    .second{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+   
+    .projectcards img {
+      height: 100%;
+       width: 100%;
+    }
+    .projectcards video{
+        height: 100%;
+        width: 100%;    
+    }
+    .projectcards{
+        position: relative;
+        top: 0;
+        width: 100vw;
+        height: 28vh;
+        padding: 2vw;
+        box-shadow: 3px 2px 22px  1px  black;
+        
+    }
+
+    /* for footer */
+    .footer{
+        width: 100vw;
+        height: 80vh;
+        background-color: #242323;
+    }
+    .footer1{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fleft{
+        width: 100%;
+        height: 30%;
+        color: white;
+    }
+    .ftext{
+        padding: 5vw 10vw;
+    }
+    .ftext h2{
+        font-size: 5vw;
+        margin-bottom: 6vw;
+    }
+    .ftext h4{
+        font-size: 7vw;
+        font-weight: 350;
+        padding-right: 12vw;
+        line-height: 7vw;
+    }
+    .fright{
+        width: 100%;
+        height: 50%;
+        
+    
+    }
+    .frighttext{
+        padding: 9vw 10vw;
+        color: white;
+    }
+    .number{
+        margin-bottom: 10vw;
+    }
+    .addres{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15vw;
+        margin-top: 2vw;
+    }
+    .addres h5{
+        font-size: 5vw;
+    }
+    .socialmedia{
+        display: flex;
+        justify-content: space-between;
+    }
+    .socialmedia a{
+        text-decoration: none;
+        color: white;
+    }
+    .soicon{
+        scale: 2;
+        padding-right: 5vw;
+    }
+    .footer2{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: #242323;
+        font-size: 4vw;
+    }
+    .footer2 span{
+        color: red;
+    }
+
+    /* for content */
     
     .content{ 
         width: 100%;
