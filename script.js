@@ -1,3 +1,9 @@
+const scroll = new LocomotiveScroll({
+  el: document.querySelector('#main'),
+  smooth: true,
+  markers:false
+});
+
 
 function showSidebar(){
   const sidebar = document.querySelector('.sidebar')
@@ -42,3 +48,45 @@ contactmob.addEventListener("click",function(){
 socialemob.addEventListener("click",function(){
   socialsec.style.display = "initial"
 })
+
+
+
+
+
+
+
+// gsap start 
+Shery.mouseFollower({
+  skew: true,
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 0.9,
+});
+
+
+Shery.imageMasker(".right img", {
+
+  mouseFollower: true,
+  text: "Krishna",
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
+
+Shery.makeMagnet(".right img" , {
+
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
+
+
+Shery.textAnimate(".left span " , {
+
+  style: 1,
+  y: 10,
+  delay: 1,
+  duration: 2,
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  multiplier: 0.1,
+});
+
+
+
