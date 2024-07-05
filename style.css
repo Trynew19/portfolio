@@ -64,7 +64,8 @@ nav li:first-child{
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0,0,0,0.1);
-    /* display: none; */
+    display: none;
+    opacity: 0;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -459,8 +460,9 @@ nav li:first-child{
         display: none;
     }
     .menu-button{
-        display: block;
+        display: initial;
     }
+    
 /* aboute section */
     .aboute-section{
         position: fixed;

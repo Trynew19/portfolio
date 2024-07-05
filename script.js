@@ -7,7 +7,7 @@ const scroll = new LocomotiveScroll({
 
 function showSidebar(){
   const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'flex'
+  sidebar.style.display = 'initial'
 }
 function hideSidebar(){
   const sidebar = document.querySelector('.sidebar')
